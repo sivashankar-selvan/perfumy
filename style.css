@@ -1,0 +1,73 @@
+
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    padding: 20px; /* Adjust this value to your preference */
+}
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust this value to your preference */
+}
+.nav {
+    display: flex;
+    gap: 20px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: yellow;
+    cursor: pointer;
+}
+input{
+    width: 60%;
+    padding: 20px;
+    font-size: larger;
+}
+
+.search{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 220px;
+    height: 220px;
+}
+
+
+.box:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.box{
+    margin-left: 20px;
+    border-color: black;
+    border-width: 2px;
+    display: inline-block;
+    border-style: solid;
+    width: 220px;
+    text-align: center;
+}
+.product{
+    text-align: center;
+}
+.About{
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    display: block;
+    color: white;
+    text-align: center;
+    /* Adjust this value to your preference */
+}
